@@ -68,7 +68,7 @@ header{
 .hero {
     height: 50%;
     margin: 0;
-    background-image: url("images/profile05.jpg");
+    background-image: url("./images/profile05.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center;
