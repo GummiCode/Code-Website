@@ -1,477 +1,189 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <title>HTML Scrapbook: Lo-Fi Take</title>
-
-    <!-- Stylesheet would go here-->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>David Arrowsmith - About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<header>
-    <hgroup>
-        <h1>HTML Scrapbook: Lo-Fi Take</h1>
-        <h2>A quiet stroll through lo-fi basics using HTML</h2>
-        <img src="img/01-tinygrass.jpg" width=500 height=375 loading="eager" alt="A patch of grass with a sign reading DO NOT DISTURB. TINY GRASS IS DREAMING.">
-    </hgroup>
-</header>
+<a name="goto-top" class="goto"></a>
 
-<main>
-<section class= "introduction">
-    <h3>What is Lo-Fi?</h3>
-        <p>Lo-Fi is a style and an aesthetic used in music, video, fashion and other media. It is characterised by serenity, gentleness, human warmth and androgyny, and often explores the everyday human experience.</p>
-        <p>Lo-Fi can be many things.
+<!-- Top nav bar -------------------------------------------------------------->
 
-            <ul>
-                <li>It can be a serene trainride.<br>
-                    <img src="img/02-trainride.png" width=500 height=375 alt="A woman looking out of the window of a train as it passes a waterfall.">
-                </li> <br>
-                <li>It can be a <a href="https://en.wikipedia.org/wiki/Slice_of_life"></a>slice of life</a>.<br>
-                    <img src="img/03-slice.jpg" width=323 height=400 alt="Three friends sitting on a rooftop overlooing a city suburb, drinking beers. A dog naps nearby."></li><br>
-                <li>It can be a warm home.<br>
-                    <img src="img/04-home.jpg" width=533 height=300 alt="A cartoon raccoon wat up in bood wearing a hoodie, sipping a hot drink and using a laptop. Outside there is snow.."></li><br>
-                <li>It can be retrofuturism.<br>
-                    <img src="img/05-retro.gif" width=434 height=750 alt="A pixelart image of a room lined with ceiling-heigh shelves co0ntaining neatly organised files. In the middle of the room is a computer on a desk, and a chair. Green text flickers on the computer screen">
-                </li><br>
-                <li>It can be cats. Cats are extremely lo-fi.<br>
-                   <img src="img/06-cats.jpg" width=451 height=300 alt="A white adult cat walks on concrete with a ginger and white kitten. They appear to be mother and child. It's a warm sunny day.">
-                </li><br>
-            </ul>
-        </p>
-</section> <!--end of introduction section-->        
+    <nav class="top-nav-bar">
+        <ul class="top-nav-links">
+            <li><a href="#goto-top"><strong>GummiCode</strong></a></li>
+            <li><a href="#goto-about-me">about</a></li>
+            <li><a href="#goto-interests">interests</a></li>
+            <li><a href="#goto-contact-me">contact</a></li>
+            <!--TODO: When able, reformat the nav bar into a single header of GummiCode which drops down to the nav links.-->
+        </ul>
+    </nav>
 
-<section class= "subjectivity"></section>
-    <h3>Lo-Fi Subjectivity</h3>
-        <p>Lo-Fi is a state of mind. It is therefore subjective. For each person it is different. However common trends in what people consider lo-fi can be determined using modern research methods such as asking strangers and mass-distribution of questionaires to email lists obtained from websites with poor privacy protocols.</p>
-        <p>Here are fifteen things that our research shows are commonly believed to be lo-fi.
-            <ol>
-                <li>calm</li>
-                <li>gentleness</li>
-                <li>comfort</li>
-                <li>serenity</li>
-                <li>self-love</li>
-                <li>loving friends</li>
-                <li>holding hands</li>
-                <li>soft sunshine</li>
-                <li>the smell of the forest</li>
-                <li>walking on concrete</li>
-                <li>napping on the couch in a white walled apartment, leafy trees filtering the sunlight through the window</li>
-                <li>chiffon cake</li>
-                <li>a hoodie that is perfectly too large</li>
-                <li>lowercase text</li>
-                <li>how did you get my email address? please don't write to me again.</li>
-            </ol>
-        </p>
-</section> <!--end of subjectivity section-->   
+<!--End top nav bar ---------------------------------------------------------->
 
-<section class= "specialists">
-    <h3>LoFi Specialists</h3>
-        <p>Some individuals specialise in creating lo-fi content. Here are some examples.</p>
-            <ol>
-                <li><a href="https://www.instagram.com/heikala/">Heikala's art is extremely lo-fi.</a><br>
-                    <img src="https://66.media.tumblr.com/f5d04d4cf7dd7949046a5d8bb22d960a/tumblr_pl6c2rVmoi1rvbwvx_500.jpg" alt="Early Bird by Heikala. A woman sits at the side of her bed and yawns. Sun filters through the blinds. Three unusually large, cute, round birds also sit on her bed.">
-                </li> <br>
+<!--Header Page -------------------------------------------------------------->
 
-                <li><a href="https://www.instagram.com/sarlisart/">So is Sarlisart's</a>.<br>
-                    <img src="https://66.media.tumblr.com/88fd37471b68b0c53de53b9b9c731670/tumblr_ot3igfYeni1txbt7vo1_1280.jpg" width=711 height=400 alt="Art from the cover of the single Flowers by In Love With A Ghost. Two women sit on a bench in a forest holding hands. One woman's legs become roots below the knees, which grow into the earth.">
-                </li> <br>
+    <header>
+            <section class="hero">
+                    <h1 class="hero-name"><span  class="hero-name" id="first-name">David </span><span class="hero-name">Arrowsmith</span></h1>
+                    <h1><span class="gummi">Gummi</span><span  class="code">Code</span></h1>
+            </section>
 
-                <li>The musician Toonorth creates beautiful lo-fi music. <a href="https://toonorth.bandcamp.com/track/ngc-6326">Here's a nice track of his</a>. </li>
-                   <a href="https://toonorth.bandcamp.com/album/adomania"> <img src="https://f4.bcbits.com/img/a0671131695_16.jpg" width=400 height=400 alt="The cover art from Toonorth's album Adomania. A late evening sky in blues and purples. The silhouettes of telephone pylons rise in the distance."> </a>
-            </ol>
-        </p>
-</section> <!--end of specialists section--> 
+            <section class="header-content">
+                <section class="header-text">  
+                    <p>I'm a self-training web development student living in Manchester, UK.</p>
+                    <p>My aim: Zero to hero in 6 months.</p>
+                    <p class="punchy">Watch this space.</p>
+                </section>
 
-<section class= "cheatsheet"></section>
-<h3>LoFi Cheatsheet</h3>
+                <nav class="header-links">
+                    <a href="https://github.com/gummicode" target="_blank" rel="noopener noreferrer">
+                        <img src="images/GitHub-Mark-120px-plus.png" alt="Go to GitHub">
+                    </a>
+                    <a href="mailto:gummicodeblog@gmail.com" >
+                        <img src="images/email.png" alt="Email Me">
+                    </a>
+                    <a href="https://twitter.com/GummiCode?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">  
+                        <img src="images/Twitter_Logo.png" alt="Go to Twitter">
+                    </a>
+                </nav>        
+            </section>
+        </section>
 
-    <p> Here's a lo-fi cheatsheet to help you tell if something is lo-fi or not.</p>
+    </header>
 
-    <table>
-        <colgroup>
-            <col style="background-color:PowderBlue">
-            <col style="background-color:LightPink">
-            <col style="background-color:PeachPuff">
-            <col style="background-color:Thistle">
-
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Thing</th>
-                <th>Is it LoFi?</th>
-                <th>LoFi Rating</th>
-            </tr>
-        <thead>
-        <tbody>
-            <tr>
-                <th rowspan=6>Food</th>
-                <td>Ramen</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Cheeseburger</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Pizza</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Party Rings</td>
-                <td>Yes</td>
-                <td style="text-align:center">8</td> 
-            </tr>
-            <tr>
-                <td>Weetabix</td>
-                <td>Not very</td>
-                <td style="text-align:center">4</td>
-            </tr>
-            <tr>
-                <td>Jammie Dodgers</td>
-                <td>No</td>
-                <td style="text-align:center">0</td>
-            </tr>
-            <tr>
-                <th rowspan=6>Drinks</th>
-                <td>Bubble Tea</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Coffee</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Liquorice Tea</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Vanilla Milkshake</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Cherryade</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Bovril</td>
-                <td>Not very</td>
-                <td style="text-align:center">2</td>
-            </tr>
-            <tr>
-                <th rowspan=8>Clothes</th>
-                <td>Spectacles</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Plain White Tshirt</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Ankle Length Trousers</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Cozy Sweater</td>
-                <td>Yes </td>
-                <td style="text-align:center">9</td>
-            </tr>
-            <tr>
-                <td>Basketball Shirt</td>
-                <td>Somewhat</td>
-                <td style="text-align:center">6</td>
-            </tr>
-            <tr>
-                <td>High Heels</td>
-                <td>Not very</td>
-                <td style="text-align:center">3</td>
-            </tr>
-            <tr>
-                <td>Football Shirt</td>
-                <td>No</td>
-                <td style="text-align:center">0</td>
-            </tr>
-            <tr>
-                <td>Santa Hat</td>
-                <td>No</td>
-                <td style="text-align:center">0</td>
-            </tr>
-            <tr>
-                <th rowspan=12>Hobbies</th>
-                <td>Looking for bugs</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Listening to lofi music</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Watching scary movies</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Hiking</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Swimming</td>
-                <td>Yes </td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Crafts</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Seamstering</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Drawing</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Coding</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Hanging out with cats</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Hanging out with dogs</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
-            <tr>
-                <td>Hanging out with friends</td>
-                <td>Yes</td>
-                <td style="text-align:center">10</td>
-            </tr>
+<!--End Header page --------------------------------------------------------->
 
 
-        </tbody>
-    </table>    
-</section> <!--end of cheatsheet section--> 
 
-<section class="public-involvement">
-    <h3>Public LoFi Involvement Scheme</h3>
+    <nav class="goto-body">
+        <a  class="goto-bar" href="#goto-about-me">
+            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
 
-    <form>
-        <fieldset>
-            <legend>Our research is ongoing. Please help our efforts by marking those of the following items that you believe to be lo-fi.</legend>
-            <div>
-                <input type="checkbox" id="botanical-gardens" name="botanical-gardens">
-                <label for="botanical-gardens">botanical gardens</label>
-            </div>
-            <div>
-                <input type="checkbox" id="arcade-machines" name="arcade-machines">
-                <label for="arcade-machines">arcade machines</label>
-            </div>
-            <div>
-               <input type="checkbox" id="leather-jackets" name="leather-jackets">
-               <label for="leather-jackets">leather jackets</label>
-            </div>
-             <div>
-                <input type="checkbox" id="piercings" name="piercings">
-                <label for="piercings">piercings</label>
-            </div>
-            <div>
-                <input type="checkbox" id="pastel-hair-dye" name="pastel-hair-dye">
-                <label for="pastel-hair-dye">pastel hair dye</label>
-            </div>
-            <div>
-                <input type="checkbox" id="letters" name="letters">
-                <label for="letters">hand-written letters</label>
-            </div>
-            <div>
-                <input type="checkbox" id="sharing-snacks" name="sharing-snacks">
-                <label for="sharing-snacks">sharing snacks with friends</label>
-            </div>
+        </a>
 
-            <br>
-            <button type="button">Submit</button>
-            <button type="reset">Clear</button>
-        </fieldset>
-    </form>
-    <br>
+    </nav>   
 
-    <form>
-        <fieldset>
-            <legend>To further aid our research please enter some things which you think may be lo-fi into the form below.</legend>
-            <br>
-                <label for="category-1">Catgeory:</label>
-                <select name="lo-fi-entry-1" id="category-1">
-                    <option value="Food">Food</option>
-                    <option value="Drink">Drink</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Animal">Animal</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Activity">Activity</option>
-                    <option value="Object">Object</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="entry-1">Thing:</label>
-                <input type="text" id="entry-1" name="lo-fi-entry-1" maxlength="100" size="50">
-            <br>
-                <label for="category-2">Catgeory:</label>
-                <select name="lo-fi-entry-2" id="category-2">
-                    <option value="Food">Food</option>
-                    <option value="Drink">Drink</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Animal">Animal</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Activity">Activity</option>
-                    <option value="Object">Object</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="entry-2">Thing:</label>
-                <input type="text" id="entry-2" name="lo-fi-entry-2" maxlength="100" size="50">
-            <br>
-                <label for="category-3">Catgeory:</label>
-                <select name="lo-fi-entry-3" id="category-3">
-                    <option value="Food">Food</option>
-                    <option value="Drink">Drink</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Animal">Animal</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Activity">Activity</option>
-                    <option value="Object">Object</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="entry-3">Thing:</label>
-                <input type="text" id="entry-3" name="lo-fi-entry-3" maxlength="100" size="50">
-            <br>
-                <label for="category-4">Catgeory:</label>
-                <select name="lo-fi-entry-4" id="category-4">
-                    <option value="Food">Food</option>
-                    <option value="Drink">Drink</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Animal">Animal</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Activity">Activity</option>
-                    <option value="Object">Object</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="entry-4">Thing:</label>
-                <input type="text" id="entry-4" name="lo-fi-entry-4" maxlength="100" size="50">
-            <br>
-                <label for="category-5">Catgeory:</label>
-                <select name="lo-fi-entry-5" id="category-5">
-                    <option value="Food">Food</option>
-                    <option value="Drink">Drink</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Animal">Animal</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Activity">Activity</option>
-                    <option value="Object">Object</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="entry-5">Thing:</label>
-                <input type="text" id="entry-5" name="lo-fi-entry-5" maxlength="100" size="50">
-            <br>
 
-            <button type="button">Submit</button>
-            <button type="reset">Clear</button>
-        </fieldset>
-    </form>
-    <br>
+<section class="text-body">
 
-<form>
-    <fieldset>
-        <legend>Data from the 1990s indicated that vanilla was the most lofi flavour of milkshake. This data needs updating to reflect current views. Please select the milkshake flavour that you think is the most lo-fi from the following list.</legend>
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "strawberry"
-    value= "strawberry" />
-    <label for= "strawberry" style="background-color:LightCoral">strawberry</label>
 
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "banana"
-    value= "banana" />
-    <label for= "banana" style="background-color:Gold">banana</label>
-    
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "chocolate"
-    value= "chocolate" />
-    <label for= "chocolate" style="background-color:BurlyWood">chocolate</label>
-        
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "vanilla"
-    value= "vanilla"
-    checked= "checked"/>
-    <label for= "vanilla" style="background-color:Lavender">vanilla</label>
+<!--About Me ----------------------------------------------------------------->
 
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "peanut butter"
-    value= "peanut butter" />
-    <label for="peanut butter" style="background-color:PeachPuff">peanut butter</label>
 
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "cherry"
-    value= "cherry" />
-    <label for= "cherry" style="background-color:Tomato">cherry</label>
+    <section class="section" id="about-me">
+        <a name="goto-about-me" class="goto"></a>
+        <h3>About Me</h3>
 
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "oreo"
-    value= "oreo" />
-    <label for= "oreo" style="background-color:MistyRose">oreo</label>
+        <section class="section-text">
+            <p>I'm a code newbie living in Manchester, UK. I'm training to change my career from chemical R&D to software egineering.</p>
 
-    <input  type= "radio"
-    name= "milkshake-flavours"
-    id= "lemon"
-    value= "lemon" />
-    <label for= "lemon" style="background-color:LightGoldenRodYellow">lemon</label>
+            <!--
+            <p>Science has long been my primary field of expertise. I've 2 degrees in Chemistry (BSc, MSc by Research). I've worked in the chemical recovery and industrial coatings industries. I've undertaken novel research in nanofabrication and catalytic nanolithography.</p> 
+            -->
+            <p>In recent years my awareness of software engineering has grown considerably. I've talked to friends who work in the field, I've read about the industry, I've attended workshops, I've completed online courses. The technology is enjoyable to work with, the field is blooming and opportunities are abundant. It's very exciting and I want to be a part of it.</p>
+            <p> I'm allowing myself 6 months to acquire the skills I need for my first development position including contemporary languages, test-driven development and experience of collaborative projects.
+            <!--
+            <p>I'm starting with HTML, CSS and JavaScript, then I'll progress to test-driven development, express.js, APIs and REACT. I'll engage in some collaborative projects to familiarise myself with shared workflows. By that point I'll be capable of full-stack development of web applications and I'll be ready to seek employment in the field.</p>
+            -->
+        </section>
+    </section>
 
-    <br>
-    <button type="button">Submit</button>
-</fieldset>
-</form>
-<br>
+    <nav class="goto-body goto-mobile">
+        <a class="goto-bar" href="#goto-interests">
+            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+        </a>
+    </nav>
 
-<fieldset>
-    <legend> Since you're already helping us out could you please feed our cat too?</legend>
-    <img src="img/08-boris1.jpg" width=319 height=400 alt="A picture of a black and white cat, its face close to the camera lens. His name is Boris. He's a very good cat.">
-    <br>
-    <button type="button" onclick="window.open('boriseats.html', '_blank')">Feed the cat</button>
-</fieldset>
+<!--End of About Me ----------------------------------------------------------->
 
-</section> <!--end of publicInvolvement section-->
+<!--Interests ----------------------------------------------------------------->
+<!--This section will be replaced with a Projects section in due course-->
 
-</main>
+    <section class="section" id="interests">
+        <a name="goto-interests" class="goto"></a>   
+        <h3>Interests</h3>
+
+        <section class="section-text">
+            <section class="subsection" id="rockclimbing">
+                <h4>Rockclimbing</h4>
+                <!--TODO: Add Images-->
+                <p>Nothing quite simulates the rush of struggling to reach a distant handhold while loosely holding yourself against a shear cliff face.</p>
+            </section>
+
+            <section class="subsection" id="digital-art">
+                <h4>Digital Art</h4>
+                <p>Digital art can reduce media costs and facilitates organisation and distribution of work. I draw using the open-source graphics package Krita. </p>
+
+                <section class="drawings">
+                    <img src="images/drawings/blue-b.jpg">
+                    <img src="images/drawings/trans-grin.jpg">
+                    <!--TODO: Add a 3rd image. Or up to 6 images!-->
+                </section>
+            </section>
+
+            <section class="subsection" id="QFT">
+                <h4>Volunterring</h4>
+                <p>I help organise <a href="#">Queer Family Tea</a>, a weekly social night that provides a safe, inclusive, alcohol-free space for people of all sexualities and gender identities to mix over dinner.</p>
+            </section>
+        </section>
+    </section> <!--End of interests section-->
+
+    <nav class="goto-body  goto-mobile">
+        <a  class="goto-bar" href="#goto-contact-me">
+            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+<!--End of Interests section ------------------------------------------------->
+
+
+
+<!--Contact Me --------------------------------------------------------------->
+    <a name="goto-contact-me"></a>
+
+    <nav class="goto-body goto-mobile">
+        <a  class="goto-bar" href="#goto-top">
+            <i class="fa fa-caret-up fa-2x" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+
+    <section class="section" id="contact-me">
+        <h3>Contact Me</h3>
+        <nav class=footer-links>
+            <a href="https://github.com/gummicode" target="_blank" rel="noopener noreferrer">
+                <img src="images/GitHub-Mark-120px-plus.png" alt="Go to GitHub">
+            </a>
+            <a href="mailto:gummicodeblog@gmail.com" >
+                <img src="images/email.png" alt="Email Me">
+            </a>
+            <a href="https://twitter.com/GummiCode?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer"> 
+                <img src="images/Twitter_Logo.png" alt="Go to Twitter">
+            </a> 
+
+        </nav>
+    </section> <!--End of interests section-->
+
+    <nav class="goto-body goto-end-desktop">
+        <a  class="goto-bar" href="#goto-top">
+            <i class="fa fa-caret-up fa-2x" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+<!--End of Contact Me -------------------------------------------------------->
+
+</section> <!-- end of text-body section-->
+
 </body>
 
 <footer>
-    <h6>Produced by the lo-fi research institute of Kumoshima</h6>
-</footer>
 
+
+</footer>
 </html>
