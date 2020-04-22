@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #232323;
+    font-family: 'Rubik', sans-serif;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    border-radius: 10pt;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: all, 0.2s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+    color:white;
+    background-color: steelblue;
+}
+
+#colorDisplay {
+    font-size: 1.3em;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    transition: all, 0.2s;
+}
+
+
+
+button {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    background: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    font-size: 1em;
+    transition: background-color, color, 0.2s;
+
+
+}
+
+button:hover {
+    background-color: steelblue;
+    color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.selected {
+    background-color: steelblue;
+    color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*ULTRA*/
+.ultra {
+    display: none;
+}
+/* /ULTRA */

@@ -2,188 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-    <title>David Arrowsmith - About Me</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>Javascript Color Game</title>
+    <link rel="stylesheet" type="text/css" href="color-game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
 </head>
+
+
 <body>
+    
+    <h1>The Great
+    <br>
+    <span id="colorDisplay">RGB</span>
+    <br>
+    Guessing Game</h1>
 
-<a name="goto-top" class="goto"></a>
+<div id="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message"></span>
+    <button class="mode">Easy</button>
+    <button class="mode selected">Hard</button>
+    <button class="mode" id="ultraBtn">Ultra</button>
+</div>
 
-<!-- Top nav bar -------------------------------------------------------------->
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
 
-    <nav class="top-nav-bar">
-        <ul class="top-nav-links">
-            <li><a href="#goto-top"><strong>GummiCode</strong></a></li>
-            <li><a href="#goto-about-me">about</a></li>
-            <li><a href="#goto-interests">interests</a></li>
-            <li><a href="#goto-contact-me">contact</a></li>
-            <!--TODO: When able, reformat the nav bar into a single header of GummiCode which drops down to the nav links.-->
-        </ul>
-    </nav>
+        <!-- ULTRA -->
+        <div class="square ultra"></div>
+        <div class="square ultra"></div>
+        <div class="square ultra"></div>
+        <div class="square ultra"></div>
+        <div class="square ultra"></div>
+        <div class="square ultra"></div>
+        <!-- /ULTRA -->
 
-<!--End top nav bar ---------------------------------------------------------->
+    </div>
 
-<!--Header Page -------------------------------------------------------------->
-
-    <header>
-            <section class="hero">
-                    <h1 class="hero-name"><span  class="hero-name" id="first-name">David </span><span class="hero-name">Arrowsmith</span></h1>
-                    <h1><span class="gummi">Gummi</span><span  class="code">Code</span></h1>
-            </section>
-
-            <section class="header-content">
-                <section class="header-text">  
-                    <p>I'm a self-training web development student living in Manchester, UK.</p>
-                    <p>My aim: Zero to hero in 6 months.</p>
-                    <p class="punchy">Watch this space.</p>
-                </section>
-
-                <nav class="header-links">
-                    <a href="https://github.com/gummicode" target="_blank" rel="noopener noreferrer">
-                        <img src="images/GitHub-Mark-120px-plus.png" alt="Go to GitHub">
-                    </a>
-                    <a href="mailto:gummicodeblog@gmail.com" >
-                        <img src="images/email.png" alt="Email Me">
-                    </a>
-                    <a href="https://twitter.com/GummiCode?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">  
-                        <img src="images/Twitter_Logo.png" alt="Go to Twitter">
-                    </a>
-                </nav>        
-            </section>
-        </section>
-
-    </header>
-
-<!--End Header page --------------------------------------------------------->
-
-
-
-    <nav class="goto-body">
-        <a  class="goto-bar" href="#goto-about-me">
-            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-
-        </a>
-
-    </nav>   
-
-
-<section class="text-body">
-
-
-<!--About Me ----------------------------------------------------------------->
-
-
-    <section class="section" id="about-me">
-        <a name="goto-about-me" class="goto"></a>
-        <h3>About Me</h3>
-
-        <section class="section-text">
-            <p>I'm a code newbie living in Manchester, UK. I'm training to change my career from chemical R&D to software egineering.</p>
-
-            <!--
-            <p>Science has long been my primary field of expertise. I've 2 degrees in Chemistry (BSc, MSc by Research). I've worked in the chemical recovery and industrial coatings industries. I've undertaken novel research in nanofabrication and catalytic nanolithography.</p> 
-            -->
-            <p>In recent years my awareness of software engineering has grown considerably. I've talked to friends who work in the field, I've read about the industry, I've attended workshops, I've completed online courses. The technology is enjoyable to work with, the field is blooming and opportunities are abundant. It's very exciting and I want to be a part of it.</p>
-            <p> I'm allowing myself 6 months to acquire the skills I need for my first development position including contemporary languages, test-driven development and experience of collaborative projects.
-            <!--
-            <p>I'm starting with HTML, CSS and JavaScript, then I'll progress to test-driven development, express.js, APIs and REACT. I'll engage in some collaborative projects to familiarise myself with shared workflows. By that point I'll be capable of full-stack development of web applications and I'll be ready to seek employment in the field.</p>
-            -->
-        </section>
-    </section>
-
-    <nav class="goto-body goto-mobile">
-        <a class="goto-bar" href="#goto-interests">
-            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-        </a>
-    </nav>
-
-<!--End of About Me ----------------------------------------------------------->
-
-<!--Interests ----------------------------------------------------------------->
-<!--This section will be replaced with a Projects section in due course-->
-
-    <section class="section" id="interests">
-        <a name="goto-interests" class="goto"></a>   
-        <h3>Interests</h3>
-
-        <section class="section-text">
-            <section class="subsection" id="rockclimbing">
-                <h4>Rockclimbing</h4>
-                <!--TODO: Add Images-->
-                <p>Nothing quite simulates the rush of struggling to reach a distant handhold while loosely holding yourself against a shear cliff face.</p>
-            </section>
-
-            <section class="subsection" id="digital-art">
-                <h4>Digital Art</h4>
-                <p>Digital art can reduce media costs and facilitates organisation and distribution of work. I draw using the open-source graphics package Krita. </p>
-
-                <section class="drawings">
-                    <img src="images/drawings/blue-b.jpg">
-                    <img src="images/drawings/trans-grin.jpg">
-                    <!--TODO: Add a 3rd image. Or up to 6 images!-->
-                </section>
-            </section>
-
-            <section class="subsection" id="QFT">
-                <h4>Volunterring</h4>
-                <p>I help organise <a href="#">Queer Family Tea</a>, a weekly social night that provides a safe, inclusive, alcohol-free space for people of all sexualities and gender identities to mix over dinner.</p>
-            </section>
-        </section>
-    </section> <!--End of interests section-->
-
-    <nav class="goto-body  goto-mobile">
-        <a  class="goto-bar" href="#goto-contact-me">
-            <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-        </a>
-    </nav>
-
-<!--End of Interests section ------------------------------------------------->
-
-
-
-<!--Contact Me --------------------------------------------------------------->
-    <a name="goto-contact-me"></a>
-
-    <nav class="goto-body goto-mobile">
-        <a  class="goto-bar" href="#goto-top">
-            <i class="fa fa-caret-up fa-2x" aria-hidden="true"></i>
-        </a>
-    </nav>
-
-
-    <section class="section" id="contact-me">
-        <h3>Contact Me</h3>
-        <nav class=footer-links>
-            <a href="https://github.com/gummicode" target="_blank" rel="noopener noreferrer">
-                <img src="images/GitHub-Mark-120px-plus.png" alt="Go to GitHub">
-            </a>
-            <a href="mailto:gummicodeblog@gmail.com" >
-                <img src="images/email.png" alt="Email Me">
-            </a>
-            <a href="https://twitter.com/GummiCode?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer"> 
-                <img src="images/Twitter_Logo.png" alt="Go to Twitter">
-            </a> 
-
-        </nav>
-    </section> <!--End of interests section-->
-
-    <nav class="goto-body goto-end-desktop">
-        <a  class="goto-bar" href="#goto-top">
-            <i class="fa fa-caret-up fa-2x" aria-hidden="true"></i>
-        </a>
-    </nav>
-
-<!--End of Contact Me -------------------------------------------------------->
-
-</section> <!-- end of text-body section-->
+    <script type="text/javascript" src="color-game.js"></script>
 
 </body>
-
-<footer>
-
-
-</footer>
 </html>
